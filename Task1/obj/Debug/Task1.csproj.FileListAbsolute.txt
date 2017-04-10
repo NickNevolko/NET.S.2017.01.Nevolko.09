@@ -1,0 +1,5 @@
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.09\Task1\bin\Debug\Task1.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.09\Task1\bin\Debug\Task1.pdb
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.09\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.09\Task1\obj\Debug\Task1.dll
+c:\users\nikol\documents\visual studio 2015\Projects\NET.S.2017.01.Nevolko.09\Task1\obj\Debug\Task1.pdb
