@@ -8,17 +8,22 @@ namespace Task1
 {
     public class Book : IEquatable<Book>, IComparable<Book>
     {
-        protected string name;
         public string Name { get; set; }
 
-        protected string author;
         public string Author { get; set; }
 
-        protected int year;
         public int Year { get; set; }
 
-        protected int id;
         public int Id { get; set; }
+
+        public Book(int id, string name, string author, int year)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Year = year;
+            this.Author = author;
+
+        }
 
         public override bool Equals(object obj)
         {
@@ -28,7 +33,7 @@ namespace Task1
 
         public override int GetHashCode()
         {
-            return this.GetHashCode() ^ year ^ id;
+            return this.GetHashCode() ^ Year ^ Id;
         }
 
         public bool Equals(Book other)
