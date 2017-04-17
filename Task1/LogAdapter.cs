@@ -14,7 +14,6 @@ namespace Task1
 
         public LogAdapter(Logger logger)
         {
-
             this.logger = logger;
         }
 
