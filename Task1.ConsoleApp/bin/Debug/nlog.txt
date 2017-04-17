@@ -1,0 +1,5 @@
+Program.Main => BookListService..ctor => LogAdapter.Task1.ILogging.Debug 1 param BookListService created
+Program.Main => BookListService.AddBook => LogAdapter.Task1.ILogging.Debug book has been added
+Program.Main => BookListService.AddBook => LogAdapter.Task1.ILogging.Debug book has been added
+Program.Main => BookListService.AddBook => LogAdapter.Task1.ILogging.Debug book has been added
+Program.Main => BookListService.AddBook => LogAdapter.Task1.ILogging.Debug book has been added

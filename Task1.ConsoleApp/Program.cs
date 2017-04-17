@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,10 @@ namespace Task1.ConsoleApp
     {
         static void Main(string[] args)
         {
+            ILogging logger = new LogAdapter(LogManager.GetCurrentClassLogger());
+
             var bookListStorage = new BookListStorage("BookFile");
-            var books = new BookListService();
+            var books = new BookListService(logger);
 
              
             books.AddBook(new Book(1234, "CLR via C#", "Jeffrey Richter", 2012));
