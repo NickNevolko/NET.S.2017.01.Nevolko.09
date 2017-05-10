@@ -9,14 +9,14 @@ namespace Task1
 {
     public class BookListStorage : IRepository
     {
-        string file;
+        private string file;
 
         public BookListStorage(string file)
         {
             this.file = file;
         }
 
-        public IEnumerable<Book> LoadBooksList()
+        public List<Book> LoadBooksList()
         {
             var list = new List<Book>();
 
@@ -33,7 +33,7 @@ namespace Task1
             }
             catch (IOException)
             {
-                throw new IOException("something otvalilos");
+                throw new IOException("IO Error");
             }
            
             return list;
@@ -58,7 +58,7 @@ namespace Task1
             }
             catch (IOException)
             {
-                throw new IOException("something otvalilos");
+                throw new IOException("IO Error");
             }
         }
     }

@@ -10,6 +10,6 @@ namespace Task1
     {
         void SaveBooksList(IEnumerable<Book> item);
 
-        IEnumerable<Book> LoadBooksList();
+        List<Book> LoadBooksList();
     }
 }

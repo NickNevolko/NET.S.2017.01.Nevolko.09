@@ -66,25 +66,28 @@ namespace Task1
 
         public Book FindBookByTag(Predicate<Book> predicate)
         {
+            logger.Info("finding a book by tag");
             return booklist.Find(predicate);
         }
 
         public IEnumerable<Book> SortBooksByTag(Func<Book, object> comparer)
         {
+            logger.Info("sorting the books by tag");
             return booklist.OrderBy(comparer);
         }
 
         public void SaveBooks(IRepository saver)
         {
             if (ReferenceEquals(saver, null)) throw new ArgumentNullException(nameof(saver));
-
+            logger.Info("saving the books");
             saver.SaveBooksList(booklist);
         }
 
         public void LoadBooks(IRepository loader)
         {
-
             if (ReferenceEquals(loader, null)) throw new ArgumentNullException(nameof(loader));
+
+            logger.Info("loading the books");
             booklist = (List<Book>)loader.LoadBooksList();
         }
 

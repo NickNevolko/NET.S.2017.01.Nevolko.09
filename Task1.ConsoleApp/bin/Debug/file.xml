@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookList>
+  <Book>
+    <id>1234</id>
+    <name>clr via c#</name>
+    <author>jeffrey richter</author>
+    <year>2012</year>
+  </Book>
+  <Book>
+    <id>124</id>
+    <name>clr vic#</name>
+    <author>jeffrey richter</author>
+    <year>202</year>
+  </Book>
+  <Book>
+    <id>134</id>
+    <name>clr via c#</name>
+    <author>jeffrey rihter</author>
+    <year>2012</year>
+  </Book>
+  <Book>
+    <id>12</id>
+    <name>clr via c#</name>
+    <author>jeffrey richter</author>
+    <year>2012</year>
+  </Book>
+</BookList>
